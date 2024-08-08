@@ -11,7 +11,7 @@ body{
 .container{
     background: linear-gradient(135deg,red,blue);
     justify-content: flex-start;
-    margin: 100px auto 0px;
+    margin: 100px auto 20px;
     width: 100%;
     max-width: 540px;
     padding: 40px 40px 70px;
@@ -27,6 +27,7 @@ body{
     width: 400px;
     height: 250px;
     border-radius: 15px;
+    margin: 100px auto 10px;
 }
 
 
