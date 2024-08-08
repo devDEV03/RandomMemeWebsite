@@ -1,56 +1,113 @@
-*{
-    margin: 0;
-    padding: 0;
+/**{*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    font-family: Georgia, serif;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*body{*/
+/*    background-color: rgb(211, 5, 5);*/
+/*}*/
+
+/*.container{*/
+/*    background: linear-gradient(135deg,red,blue);*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: 100px auto 20px;*/
+/*    width: 100%;*/
+/*    max-width: 540px;*/
+/*    padding: 40px 40px 70px;*/
+/*    border-radius: 30px;*/
+/*}*/
+
+/*.memeImage{*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: 100px 50px 50px;*/
+/*}*/
+/*.memeImage img{*/
+/*    max-width: 400px;*/
+/*    max-height: 250px;*/
+/*    border-radius: 15px;*/
+/*    margin: auto;*/
+/*}*/
+
+
+/*.container button{*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: 30px auto 30px;*/
+/*    padding: 10px 20px 15px;*/
+/*    outline: none;*/
+/*    border: none;*/
+/*    border-radius: 15px;*/
+/*    max-height: 60px;*/
+/*    max-width: 200px;*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    font-size: 17px;*/
+/*}*/
+
+/*.container h1{*/
+/*    margin: auto;*/
+/*    font-size: 24px;*/
+/*    color: white;*/
+/*    text-align: center;*/
+/*    margin-left: 15px;*/
+/*}*/
+
+body {
     font-family: Georgia, serif;
-    box-sizing: border-box;
-}
-body{
-    background-color: rgb(211, 5, 5);
-}
-
-.container{
     background: linear-gradient(135deg,red,blue);
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 100px auto 20px;
-    width: 100%;
-    max-width: 540px;
-    padding: 40px 40px 70px;
-    border-radius: 30px;
+    height: 100vh;
+    margin: 0;
 }
 
-.memeImage{
-    justify-content: center;
-    align-items: center;
-    margin: 100px 45px 50px;
-}
-.memeImage img{
-    max-width: 400px;
-    max-height: 250px;
-    border-radius: 15px;
-    margin: 100px auto 10px;
-}
-
-
-.container button{
-    justify-content: center;
-    align-items: center;
-    margin: 20px auto;
-    padding: 10px 20px 15px;
-    outline: none;
-    border: none;
-    border-radius: 15px;
-    max-height: 60px;
-    max-width: 200px;
-    background-color: black;
-    color: white;
-    font-size: 17px;
-}
-
-.container h1{
-    margin: auto;
-    font-size: 24px;
-    color: white;
+.container {
     text-align: center;
-    margin-left: 15px;
+    background: linear-gradient(135deg,red,blue);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.memeImage {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+    line-height: 1.4;
+}
+
+.generateButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.generateButton:hover {
+    background-color: #45a049;
 }
